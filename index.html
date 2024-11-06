@@ -1,1 +1,87 @@
-Hello World
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Raeline Valbuena</title>
+    <meta name="description" content="Raeline Valbuena's personal website.">
+    <meta name="Raeline Valbuena" content="Information about the author here">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+  </head>
+  <!-- the website will start rendering after the head -->
+
+
+  <!-- EDIT THIS TO REVISE CONTENT -->>
+  <body>
+
+    <header id="header">
+      <img src="logo.png">
+      <h1>RV beta </h1>
+
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#home">about</a></li>
+        <li><a href="#about">research</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </header>
+
+    <div id="container">
+      <div class="inner">
+        <div id="content">
+
+          <!-- an intro about myself and my research -->
+          <div id="about" class="content-region hide">
+            <h2>about</h2>
+            <p>
+              I am a (almost) newly-minted PhD from Stanford Genetics.
+            </p>
+          </div>
+
+          <!-- a list of publications (that don't fit on my CV) -->
+          <div id="research" class="content-region hide">
+            <h2>research</h2>
+            <p>
+              TBA SOON
+            </p>
+          </div>
+
+          <!-- all my contact info that I am okay being public -->
+          <div id="contact" class="content-region hide">
+            <h2>contact</h2>
+            <p>
+              email: raelinecv@gmail.com </br>
+              twitter: <a href="https://x.com/rcvalbuena">@rcvalbuena</a> </br>
+              linkedin: <a href="https://www.linkedin.com/in/raeline-valbuena/">raeline-valbuena</a> </br>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &#169; Raeline Valbuena
+    </footer>
+
+    <!-- load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
