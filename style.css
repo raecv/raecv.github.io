@@ -93,8 +93,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
+  background: radial-gradient(circle at left, #fa4e58 , #fde387)
 }
 body {
   max-width:800px;
