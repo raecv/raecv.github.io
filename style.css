@@ -1,6 +1,4 @@
-/**
- * Typography & Text styles
- */
+/* typography & text styles */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
 html {
@@ -8,15 +6,13 @@ html {
 }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6; /* changes spacing between lines */
+  font-weight: 400; /* 400 in the normal weight */
+  font-family: "Lexend", "Roboto", Helvetica, Arial, sans-serif;
   color: #000000;
 }
 
-/**
- * Links
- */
+/* links */
 a {
   font-weight: medium;
   text-decoration: none;
@@ -25,14 +21,11 @@ a {
 a:focus {
   outline: thin dotted;
 }
-
 small {
   font-size: 75%;
 }
 
-/**
- * Headings
- */
+/* headings */
 h1,
 h2,
 h3,
@@ -52,9 +45,7 @@ h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
-/**
- * Paragraphs
- */
+/* paragraphs */
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
 }
@@ -62,9 +53,7 @@ p + p {
 
 }
 
-/**
- * Quotes & Blockquotes
- */
+/* quotes & blockquotes */
 q {
   quotes: '\00201C' '\00201D';
 }
@@ -100,9 +89,17 @@ body {
   margin:25px auto;
 }
 header, #content, footer {
-  background: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.95);
   padding:25px;
   color:#000000;
+}
+
+/* adding extra centering to the header element */
+#header {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  height: 100px; /* you can adjust this to your header's height */
 }
 
 /* Menu Links */
