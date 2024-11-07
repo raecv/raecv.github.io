@@ -18,7 +18,7 @@ body {
  * Links
  */
 a {
-  font-weight: normal;
+  font-weight: medium;
   text-decoration: none;
   color:#EF6D3D;
 }
@@ -91,16 +91,16 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
+html, #container, .inner {background-color:transparent;}
 html {
-  background: radial-gradient(circle at left, #fa4e58 , #fde387)
+  background: radial-gradient(circle at left, #fa4e58 , #fde387);
 }
 body {
   max-width:800px;
   margin:25px auto;
 }
 header, #content, footer {
-  background: rgba(0,0,0,.8);
+  background: rgba(255,255,255,.85);
   padding:25px;
   color:#000000;
 }
